@@ -23,7 +23,6 @@ def get_upcoming_birthdays(users):
       congratulation_date = congratulation_date + timedelta(days=2)
     elif weekday == 6:
       congratulation_date = congratulation_date + timedelta(days=1)
-
     
     result.append({
       "name": user["name"],
